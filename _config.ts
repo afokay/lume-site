@@ -3,6 +3,7 @@ import metas from "lume/plugins/metas.ts";
 import postcss from "lume/plugins/postcss.ts";
 
 const site = lume({
+    location: new URL("https://lume.land"),
     components: {
         variable: "components",
     },
