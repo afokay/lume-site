@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} | Lume Site</title>
+    <link rel="canonical" href="{{ url | url(true) }}">
+    <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="/css/blueimp-gallery.min.css">
+	<link rel="stylesheet" href="/css/magnific-popup.css">
+	<link rel="stylesheet" href="/css/main.css">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/logo.png">
+</head>
+<body>
+    <header class="header">
+        {{ components.navbar() | safe }}
+    </header>
+    <section class="hero" id="hero">
+		<div class="container">
+			<div class="row row--grid">
+				<div class="col-12 col-lg-7">
+					<div class="hero__content hero__content--first">
+						<h2 class="hero__title"><b>Lume Site</b> <br>Demo</h2>
+						<p class="hero__tagline">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						<div class="hero__btns">
+							<a data-scroll href="#" class="hero__btn"><span>Explore</span></a>
+
+							<a data-scroll href="#" class="hero__btn hero__btn--white"><span>Lear more</span></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-5">
+					<div class="hero__content hero__content--second">
+						<div class="hero__dates" id="hero__dates">
+							<div class="hero__date hero__date--color" data-depth="0.25">
+								<div class="hero__date-day">
+									07-08
+									<span>April</span>
+								</div>
+								<div class="hero__date-text">Edit <br>& Deploy</div>
+							</div>
+
+							<div class="hero__date hero__date--glass" data-depth="0.15">
+								<div class="hero__date-day">
+									09
+									<span>April</span>
+								</div>
+								<div class="hero__date-text">Mentoring <br>& Sharing</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    {{ content | safe }}
+</body>
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/smooth-scrollbar.js"></script>
+<script src="/js/parallax.min.js"></script>
+<script src="/js/jquery.waypoints.min.js"></script>
+<script src="/js/jquery.counterup.min.js"></script>
+<script src="/js/blueimp-gallery.min.js"></script>
+<script src="/js/jquery.magnific-popup.min.js"></script>
+<script src="/js/smooth-scroll.polyfills.min.js"></script>
+<script src="/js/main.js"></script>
+</html>

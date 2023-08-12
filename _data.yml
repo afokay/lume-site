@@ -1,0 +1,18 @@
+metas:
+  site: =title
+  description: =description
+  image: =image
+  lang: en
+  generator: true
+
+links:
+  - title: About
+    href: "/about"
+  - title: Service
+    href: "/service"
+  - title: Contacts
+    href: "/contacts"
+  - title: Privacy Policy
+    href: "/privacy"
+
+layout: layouts/base.njk

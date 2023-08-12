@@ -1,0 +1,40 @@
+<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="header__content">
+						<!-- btn -->
+						<button class="header__btn" type="button" aria-label="header__nav">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+						<!-- end btn -->
+
+						<!-- logo -->
+						<a data-scroll href="index.html#hero" class="header__logo">
+							<img class="header__logo-white" src="img/logo.png" alt="">
+							<img class="header__logo-dark" src="img/logo.png" alt="">
+						</a>
+						<!-- end logo -->
+
+						<!-- tagline -->
+						<span class="header__tagline">Lume Site</span>
+						<!-- end tagline -->
+
+						<!-- navigation -->
+						<ul class="header__nav" id="header__nav">
+                            {% for link in links %}
+							<li class="dropdown header__dropdown">
+								<a class="dropdown-toggle" href="{{ link.href }}">{{ link.title }}</a>
+							</li>
+                            {% endfor %}
+						</ul>
+						<!-- end navigation -->
+
+						<!-- sign in -->
+						<a data-scroll href="#" class="header__cta"><span>Explore</span></a>
+						<!-- end sign in -->
+					</div>
+				</div>
+			</div>
+		</div>
