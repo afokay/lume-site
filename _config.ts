@@ -3,7 +3,7 @@ import metas from "lume/plugins/metas.ts";
 import postcss from "lume/plugins/postcss.ts";
 
 const site = lume({
-    location: new URL("https://dry-donkey-75.deno.dev"),
+    location: new URL("https://lume-gooks.deno.dev"),
     components: {
         variable: "components",
     },
