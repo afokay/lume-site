@@ -2,7 +2,7 @@
 Just demo site using lume deno<br><br>
 ![Capture](https://telegra.ph/file/f1944e4a501416205fedf.jpg)
 
-[Demo](https://afokay.github.io/lume-site)
+[Demo](https://careful-frog-27.deno.dev)
 
 ### How to use?
 1. You have install deno first - [Install Deno](https://deno.land/manual/getting_started/installation)

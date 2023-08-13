@@ -3,7 +3,7 @@ import metas from "lume/plugins/metas.ts";
 import postcss from "lume/plugins/postcss.ts";
 
 const site = lume({
-    location: new URL("https://afokay.github.io/lume-site"),
+    location: new URL("https://careful-frog-27.deno.dev"),
     components: {
         variable: "components",
     },
