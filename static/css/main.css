@@ -608,7 +608,7 @@ ul {
   position: relative;
   width: 100%;
   padding: 140px 0 60px;
-  background: url("img/hero.jpg") no-repeat center/cover;
+  background: url("../img/hero.jpg") no-repeat center/cover;
 }
 .hero__content {
   display: flex;
@@ -1370,13 +1370,13 @@ ul {
   padding-bottom: 0;
 }
 .section--about-up {
-  background: url("img/up.svg") no-repeat top center;
+  background: url("../img/up.svg") no-repeat top center;
 }
 .section--about-wave {
-  background: url("img/about/wave.svg") no-repeat top center;
+  background: url("../img/about/wave.svg") no-repeat top center;
 }
 .section--about-angle {
-  background: url("img/about/angle.svg") no-repeat top center;
+  background: url("../img/about/angle.svg") no-repeat top center;
 }
 @media (min-width: 768px) {
   .section {
@@ -3676,7 +3676,7 @@ ul {
 .form__group--dark .form__select {
   color: #232122;
   border-color: rgba(35,33,34,0.26);
-  background: url("img/select--dark.svg") no-repeat center right 20px transparent;
+  background: url("../img/select--dark.svg") no-repeat center right 20px transparent;
   background-size: 20px auto;
 }
 .form__group--dark .form__select:hover,
@@ -3730,7 +3730,7 @@ ul {
   width: 100%;
   height: 60px;
   padding: 0 20px;
-  background: url("img/select.svg") no-repeat center right 20px transparent;
+  background: url("../img/select.svg") no-repeat center right 20px transparent;
   background-size: 20px auto;
   border: 2px solid rgba(255,255,255,0.06);
   border-radius: 16px;
@@ -4257,7 +4257,7 @@ ul {
   right: 0;
   width: 24px;
   height: 44px;
-  background: url("img/close.svg") no-repeat center;
+  background: url("../img/close.svg") no-repeat center;
   background-size: 24px auto;
 }
 .mfp-iframe-holder .mfp-content {
@@ -4337,11 +4337,11 @@ ul {
   background-color: #232122;
 }
 .blueimp-gallery-svgasimg > .play-pause {
-  background-image: url("img/play.svg");
+  background-image: url("../img/play.svg");
 }
 .blueimp-gallery-playing > .play-pause {
   background-position: 0 0;
-  background-image: url("img/pause.svg");
+  background-image: url("../img/pause.svg");
 }
 .blueimp-gallery > .title {
   top: 20px;
