@@ -7,3 +7,6 @@ Just demo site using lume deno<br><br>
 2. Clone the Github repo: `git clone https://github.com/afokay/lume-site`
 3. Open the project directory: `cd lume-site`
 4. Run locally: `deno task serve`
+
+### Wait
+This site is still under development.
